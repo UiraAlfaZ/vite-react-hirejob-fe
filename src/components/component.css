@@ -1,0 +1,38 @@
+/*LandingPages*/
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+  }
+  
+  .imgcar {
+    margin-bottom: 20px;
+    border: 5px solid #FBB0175E;
+  }
+  
+.card {
+    width: 150px;
+    height: 400px;
+}
+
+.custom-card {
+  height: auto !important; /* Memastikan tinggi sesuai konten */
+  width: auto !important;
+  overflow: visible; /* Konten tidak akan tersembunyi */
+  padding: 20px; /* Memberikan ruang di dalam card */
+  box-sizing: border-box; /* Memastikan padding diperhitungkan dalam ukuran total */
+  border: 1px solid #ddd; /* Border agar sesuai dengan card Bootstrap */
+  border-radius: 5px; /* Membuat sudut sedikit melengkung */
+  background-color: #fff; /* Menjaga tampilan card */
+}
+
+.card-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/*----------------------------*/

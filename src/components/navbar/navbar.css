@@ -1,0 +1,12 @@
+.custom-btn {
+    color: #5E50A1;          /* Warna teks */
+    border-color: #5E50A1;   /* Warna border */
+  }
+  
+  .custom-btn:hover, 
+  .custom-btn:focus {
+    background-color: #5E50A1; /* Warna latar belakang saat di-hover */
+    color: white;              /* Warna teks saat di-hover */
+    border-color: #5E50A1;     /* Warna border tetap sama */
+  }
+  

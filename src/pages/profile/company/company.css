@@ -1,0 +1,22 @@
+.custom-btn {
+    color: #5E50A1;          /* Warna teks */
+    border-color: #5E50A1;   /* Warna border */
+  }
+  
+  .custom-btn:hover, 
+  .custom-btn:focus {
+    background-color: #5E50A1; /* Warna latar belakang saat di-hover */
+    color: white;              /* Warna teks saat di-hover */
+    border-color: #5E50A1;     /* Warna border tetap sama */
+  }
+
+  .custom-card {
+    height: auto !important; /* Memastikan tinggi sesuai konten */
+    overflow: visible; /* Konten tidak akan tersembunyi */
+    padding: 20px; /* Memberikan ruang di dalam card */
+    box-sizing: border-box; /* Memastikan padding diperhitungkan dalam ukuran total */
+    border: 1px solid #ddd; /* Border agar sesuai dengan card Bootstrap */
+    border-radius: 5px; /* Membuat sudut sedikit melengkung */
+    background-color: #fff; /* Menjaga tampilan card */
+  }
+  
